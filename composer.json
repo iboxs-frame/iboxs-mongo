@@ -1,0 +1,22 @@
+{
+    "name": "iboxs/iboxs-mongo",
+    "description": "mongodb driver for iboxs1.0",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "itlattice",
+            "email": "itlattice@gmail.com"
+        }
+    ],
+    "require": {
+	   "iboxs/framework": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "iboxs\\db\\": "src"
+        },
+        "files": [
+        ]
+    },
+    "minimum-stability": "dev"
+}
